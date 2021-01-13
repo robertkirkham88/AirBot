@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB.Domain.Tests", "tests\AB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB.Domain.Bus.Tests", "tests\AB.Domain.Bus.Tests\AB.Domain.Bus.Tests.csproj", "{90E76CCD-A5D7-4421-AEA8-8D0083357F55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AB.Service.DiscordBot", "src\AB.Service.DiscordBot\AB.Service.DiscordBot.csproj", "{8C8B2D3C-6552-40CF-A2C4-68E3852ED141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{90E76CCD-A5D7-4421-AEA8-8D0083357F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90E76CCD-A5D7-4421-AEA8-8D0083357F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90E76CCD-A5D7-4421-AEA8-8D0083357F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8B2D3C-6552-40CF-A2C4-68E3852ED141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8B2D3C-6552-40CF-A2C4-68E3852ED141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8B2D3C-6552-40CF-A2C4-68E3852ED141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8B2D3C-6552-40CF-A2C4-68E3852ED141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{696E117B-7FF4-4B59-9D3B-F4C789E392DD} = {01AE64D0-B3AA-426B-83BE-E42A9043A79F}
 		{0B1E81D5-3ED9-4D2F-BF0F-5BF3426413DD} = {96AFC7A6-219C-4F8E-B7E4-554CA67D9CF3}
 		{90E76CCD-A5D7-4421-AEA8-8D0083357F55} = {96AFC7A6-219C-4F8E-B7E4-554CA67D9CF3}
+		{8C8B2D3C-6552-40CF-A2C4-68E3852ED141} = {01AE64D0-B3AA-426B-83BE-E42A9043A79F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {526D21EC-A431-472B-819C-204D86B85669}
